@@ -13,6 +13,7 @@ export class FormulaireComponent {
   @Output() nouvelleTacheEvt = new EventEmitter<string>();
 
   ajoutNouvelleTache(tache: string) {
-      this.nouvelleTacheEvt.emit(tache)
-  } 
+    console.log(tache);
+    this.nouvelleTacheEvt.emit(tache)
+  }
 }

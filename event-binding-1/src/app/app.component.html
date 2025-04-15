@@ -1,5 +1,4 @@
-<app-form (nouvelleTacheEvt)="ajouterTache('test appl')"></app-form>
-Hello 1
+<app-form (nouvelleTacheEvt)="ajouterTache($event)"></app-form>
 <ul>
   <li *ngFor="let tache of taches">{{ tache }}</li>
 </ul>

@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { FormulaireComponent } from './formulaire/formulaire.component';
 
 @Component({
   selector: 'app-root',
