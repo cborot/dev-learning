@@ -1,7 +1,7 @@
 import { Component, Output, EventEmitter } from '@angular/core';
 
 @Component({
-  selector: 'app-formulaire',
+  selector: 'app-form',
   standalone: false,
   templateUrl: './formulaire.component.html',
   styleUrl: './formulaire.component.scss'
